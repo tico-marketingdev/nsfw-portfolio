@@ -62,7 +62,7 @@ export default function Home() {
           <div className="op-cell">
             <div className="op-cell-label">Media channels</div>
             <div className="op-cell-val">
-              Instagram · X/Twitter · TrafficJunky · OnClicka · Telegram Rich
+              Instagram · X/Twitter · Reddit · TrafficJunky · OnClicka · Telegram Rich
               Ads
             </div>
           </div>
