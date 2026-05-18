@@ -37,7 +37,7 @@ body {
   background-size: 64px 64px;
   color: var(--text);
   font-family: var(--font-body);
-  font-size: 15px;
+  font-size: 22px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -65,7 +65,7 @@ body {
 
 .eyebrow {
   font-family: var(--font-code);
-  font-size: 10px;
+  font-size: 15px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--gold);
@@ -74,7 +74,7 @@ body {
 
 .hero h1 {
   font-family: var(--font-display);
-  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-size: clamp(3.3rem, 7.5vw, 5.1rem);
   font-weight: 900;
   line-height: 1.08;
   margin-bottom: 1.25rem;
@@ -86,7 +86,7 @@ body {
 }
 
 .hero-sub {
-  font-size: 15px;
+  font-size: 22px;
   color: #c8c4bb;
   max-width: 560px;
   line-height: 1.8;
@@ -102,7 +102,7 @@ body {
 
 .meta-pill {
   font-family: var(--font-code);
-  font-size: 11px;
+  font-size: 16px;
   color: #b0aa9f;
   border: 1px solid var(--dim);
   padding: 0.3rem 0.85rem;
@@ -118,7 +118,7 @@ body {
 
 .sec-label {
   font-family: var(--font-code);
-  font-size: 10px;
+  font-size: 15px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--gold);
@@ -127,14 +127,14 @@ body {
 
 .sec h2 {
   font-family: var(--font-display);
-  font-size: 1.65rem;
+  font-size: 2.475rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: var(--text);
 }
 
 .sec-desc {
-  font-size: 14px;
+  font-size: 21px;
   color: #a09b94;
   max-width: 520px;
   margin: 0 auto 2rem;
@@ -148,7 +148,7 @@ body {
   gap: 0;
   margin: 1.5rem 0;
   font-family: var(--font-code);
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .tl-node {
@@ -183,7 +183,7 @@ body {
 
 .op-cell-label {
   font-family: var(--font-code);
-  font-size: 10px;
+  font-size: 15px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--muted);
@@ -191,7 +191,7 @@ body {
 }
 
 .op-cell-val {
-  font-size: 14px;
+  font-size: 21px;
   color: #ddd9d0;
   line-height: 1.65;
 }
@@ -222,7 +222,7 @@ body {
 
 .creator-letter {
   font-family: var(--font-display);
-  font-size: 2.5rem;
+  font-size: 3.75rem;
   font-weight: 900;
   color: var(--dim);
   line-height: 1;
@@ -231,7 +231,7 @@ body {
 
 .creator-niche {
   font-family: var(--font-code);
-  font-size: 10px;
+  font-size: 15px;
   letter-spacing: 0.1em;
   color: var(--muted);
   text-transform: uppercase;
@@ -245,20 +245,20 @@ body {
 }
 
 .metric-label {
-  font-size: 11px;
+  font-size: 16px;
   color: var(--muted);
   margin-bottom: 0.2rem;
 }
 
 .metric-val {
-  font-size: 1.35rem;
+  font-size: 2.025rem;
   font-weight: 500;
   color: var(--text);
   font-family: var(--font-code);
 }
 
 .metric-val .unit {
-  font-size: 0.75rem;
+  font-size: 1.125rem;
   color: var(--muted);
   margin-left: 2px;
 }
@@ -266,7 +266,7 @@ body {
 .badge {
   display: inline-block;
   font-family: var(--font-code);
-  font-size: 10px;
+  font-size: 15px;
   padding: 0.2rem 0.55rem;
   border-radius: 2px;
   margin-top: 0.2rem;
@@ -296,7 +296,7 @@ body {
 }
 
 .rev-label {
-  font-size: 10px;
+  font-size: 15px;
   color: var(--muted);
   font-family: var(--font-code);
   margin-top: 0.3rem;
@@ -320,13 +320,13 @@ body {
 
 .eff-num {
   font-family: var(--font-code);
-  font-size: 1.5rem;
+  font-size: 2.25rem;
   font-weight: 500;
   color: var(--text);
 }
 
 .eff-sub {
-  font-size: 12px;
+  font-size: 18px;
   color: var(--muted);
   margin-top: 0.2rem;
 }
@@ -347,21 +347,21 @@ body {
 }
 
 .think-icon {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-bottom: 0.75rem;
   color: var(--gold);
   opacity: 0.6;
 }
 
 .think-title {
-  font-size: 14px;
+  font-size: 21px;
   font-weight: 500;
   margin-bottom: 0.5rem;
   color: var(--text);
 }
 
 .think-body {
-  font-size: 13px;
+  font-size: 19px;
   color: #a09b94;
   line-height: 1.75;
 }
@@ -381,7 +381,7 @@ body {
 }
 
 .funnel-label-header {
-  font-size: 11px;
+  font-size: 16px;
   color: var(--muted);
   margin-bottom: 1.25rem;
   font-family: var(--font-code);
@@ -402,7 +402,7 @@ body {
 }
 
 .funnel-label {
-  font-size: 12px;
+  font-size: 18px;
   color: var(--muted);
   width: 110px;
   text-align: right;
@@ -424,14 +424,14 @@ body {
   display: flex;
   align-items: center;
   padding-left: 0.75rem;
-  font-size: 11px;
+  font-size: 16px;
   font-family: var(--font-code);
   color: var(--gold);
 }
 
 .funnel-metric {
   font-family: var(--font-code);
-  font-size: 11px;
+  font-size: 16px;
   color: var(--muted);
   width: 120px;
 }
@@ -465,7 +465,7 @@ body {
 
 .stack-cat {
   font-family: var(--font-code);
-  font-size: 9px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--gold);
@@ -473,13 +473,13 @@ body {
 }
 
 .stack-tool {
-  font-size: 14px;
+  font-size: 21px;
   font-weight: 500;
   color: var(--text);
 }
 
 .stack-desc {
-  font-size: 12px;
+  font-size: 18px;
   color: #9a958e;
   line-height: 1.6;
 }
@@ -512,7 +512,7 @@ body {
 
 .beyond-sector {
   font-family: var(--font-code);
-  font-size: 9px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted);
@@ -520,14 +520,14 @@ body {
 }
 
 .beyond-title {
-  font-size: 14px;
+  font-size: 21px;
   font-weight: 500;
   color: var(--text);
   margin-bottom: 0.5rem;
 }
 
 .beyond-body {
-  font-size: 12px;
+  font-size: 18px;
   color: #9a958e;
   line-height: 1.7;
 }
@@ -546,14 +546,14 @@ footer {
 
 .footer-name {
   font-family: var(--font-display);
-  font-size: 1.1rem;
+  font-size: 1.65rem;
   font-weight: 700;
   color: var(--text);
 }
 
 .footer-contact {
   font-family: var(--font-code);
-  font-size: 11px;
+  font-size: 16px;
   color: var(--gold);
 }
 
